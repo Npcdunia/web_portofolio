@@ -8,13 +8,13 @@ const EMAIL = 'syaifulazril89@gmail.com';
 const proyek = [
   { tag: 'Web App', warna: { bg: '#FFF1D6', fg: '#8A5A00' }, judul: 'Platform Portofolio',
     deskripsi: 'Aplikasi web untuk membuat portofolio profesional.',
-    tombol: 'b-oranye', latar: '', gambar: 'img/proyek-1.png', link: '#' },
+    tombol: 'b-oranye', latar: '', gambar: 'img/porto.png', link: '#' },
   { tag: 'Mobile app', warna: { bg: '#E1E5FF', fg: '#1B2BA8' }, judul: 'Aplikasi Pencari Kos',
     deskripsi: 'Konsep aplikasi pencarian kos yang membantu pengguna menemukan pilihan tempat tinggal melalui tampilan peta dan informasi kriteria kos.',
-    tombol: 'b-biru', latar: 't2', gambar: 'img/proyek-2.png', link: '#' },
+    tombol: 'b-biru', latar: 't2', gambar: 'img/kos.png', link: '#' },
   { tag: 'IOT', warna: { bg: '#D5F5EC', fg: '#0B6B58' }, judul: 'Sistem Sensor menggunakan ESP32',
     deskripsi: 'Proyek perangkat cerdas yang mengintegrasikan ESP32 dengan komponen sensor lain untuk mempelajari pembacaan data sensor serta respons perangkat.',
-    tombol: 'b-teal', latar: 't3', gambar: 'img/proyek-3.png', link: '#' }
+    tombol: 'b-teal', latar: 't3', gambar: 'img/esp32.jpg', link: '#' }
 ]; // gambar: simpan file di folder img dengan nama sesuai path di atas
 
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
