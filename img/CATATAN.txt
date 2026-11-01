@@ -1,0 +1,8 @@
+Simpan gambar di folder ini:
+- proyek-1.png : Platform Portofolio
+- proyek-2.png : Aplikasi Pencari Kos
+- proyek-3.png : Sistem Sensor ESP32
+- foto.jpg     : foto profil (opsional, lihat komentar di index.html)
+
+Kalau formatnya JPG, ubah path "gambar" di js/main.js.
+Tanpa file gambar, halaman tetap tampil dengan kotak gradasi abu.
